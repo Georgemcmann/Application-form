@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ body{
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-image: url(basketball-game-concept.jpg);
+     background-size: 1700px;
+ }
+ .container{
+    background-color:darksalmon;
+    position: relative;
+    padding: 20px;
+    border-radius: 7px;
+    margin: 0 40px;
+    align-items: center;
+ }
+ .container header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    margin-bottom: 10px;
+ }
+.title{
+    font-size: 24px;
+    margin:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-field label{
+    font-size: 15px;
+    font-weight: 600;
+    color:maroon;
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    color:indigo;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+}
+.submitBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color:black;
+    border-radius: 9px;
+    margin: 25px 0;
+    background-color:red;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.submitBtn{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-right: 14px;
+    margin: 0 6px;
+}
+.submitBtn:hover{
+    background-color:rebeccapurple;
+}
